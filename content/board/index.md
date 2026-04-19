@@ -9,9 +9,11 @@ Random things I found on reddit, X, instagram or HN, and thought completing thes
 
 ### Books
 
+- [The Architecture of Open Source Applications](https://aosabook.org/en/)
 - Code: The Hidden Language of Computer Hardware and Software
 - [Crafting Interpreters](https://craftinginterpreters.com/)
 - DDIA
+- [Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
 - [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
 ### Blogs
@@ -29,6 +31,5 @@ Random things I found on reddit, X, instagram or HN, and thought completing thes
 - [Programming Paradigms for Dummies: What Every Programmer Should Know](https://webperso.info.ucl.ac.be/~pvr/VanRoyChapter.pdf)
 - [Readings in Database Systems](http://www.redbook.io/)
 - [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
-
 
 Thanks to the lovely people who mentioned these to share their knowledge and a much greater appreciation to all the authors for producing such amazing works and in many cases even making them available for free
