@@ -66,5 +66,5 @@ The paper builds on the authors' previous works and proposes an IFG to generate 
 ### References
 1. [A novel intuitionistic fuzzy generator for low-contrast color image enhancement technique](https://doi.org/10.1016/j.inffus.2024.102365)
 > Selvam, C., Jebadass, R.J.J., Sundaram, D., & Shanmugam, L.
-2. [Implementation](https://github.com/Adi8712/IFGContrastEnhancer)
+2. [Implementation](https://github.com/adityakgupta/IFGContrastEnhancer)
 > Mistakes are mine

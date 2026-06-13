@@ -20,7 +20,7 @@ canonifyURLs = true
 
 [params]
     author = "Aditya Kumar Gupta"
-    github = "https://github.com/Adi8712"
+    github = "https://github.com/adityakgupta"
     linkedin = "https://linkedin.com/in/aditya-kgupta"
     twitter = "https://x.com/aditya_kgupta"
     mainSections = ["posts"]
