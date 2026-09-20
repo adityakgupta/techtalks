@@ -6,7 +6,6 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{fontawesome5}
 \input{glyphtounicode}
 
 \addtolength{\oddsidemargin}{-0.6in}
@@ -70,10 +69,10 @@
     \begin{center}
         {\Huge \scshape Aditya Kumar Gupta} \\ \vspace{5pt}
         \small
-        \href{tel:+919832541449}{\raisebox{-0.2\height}\faPhone\ \underline{9832541449}} ~
-        \href{mailto:adislg20@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{adislg20@gmail.com}} ~
-        \href{https://linkedin.com/in/aditya-kgupta/}{\raisebox{-0.2\height}\faLinkedin\ \underline{aditya-kgupta}}  ~
-        \href{https://github.com/adityakgupta}{\raisebox{-0.2\height}\faGithub\ \underline{adityakgupta}}
+        \href{tel:+919832541449}{\underline{+91 9832541449}} ~
+        \href{mailto:adislg20@gmail.com}{\underline{adislg20@gmail.com}} ~
+        \href{https://linkedin.com/in/aditya-kgupta/}{\underline{linkedin.com/in/aditya-kgupta}}  ~
+        \href{https://github.com/adityakgupta}{\underline{github.com/adityakgupta}}
         \vspace{-8pt}
     \end{center}
 
@@ -88,54 +87,44 @@
         \begin{center}
             \begin{itemize*}[itemjoin={\hfill}, afterlabel={\hspace{0.1cm}}]
                 \item\small Data Structures and Algorithms
-                \item Object Oriented Programming
+                \item Object-Oriented Programming
                 \item Database Management
-                \item Operating System
+                \item Operating Systems
             \end{itemize*}
             \vspace{-5pt}
         \end{center}
 
-
     \section{Technical Skills}
-        \textbf{Languages: }{JavaScript, TypeScript, Python, C++, Golang, Java, Kotlin, HTML/CSS } \\
-        \textbf{Frameworks: }{ReactJS, Node.JS, Express, NestJS, Flask, Django, FastAPI} \\
-        \textbf{Databases: }{SQL, MongoDB, Firebase} \\
-        \textbf{Developer Tools: }{AWS, Docker, Jenkins, Sentry, Android Studio, Kibana, Figma} \\
+        \textbf{Languages: }{Go, Python, C++, TypeScript, JavaScript, SQL} \\
+        \textbf{Frameworks: }{FastAPI, Django, Flask, Node.js, Express, ReactJS, NestJS} \\
+        \textbf{Databases: }{PostgreSQL, MongoDB} \\
+        \textbf{Developer Tools: }{Temporal, AWS, Docker, Jenkins, Sentry, Android Studio, Kibana, Figma} \\
         \vspace{-8pt}
 
-    \section{Experience}
+    \section{Work Experience}
     \resumeSubHeadingListStart
         \resumeSubheading
+            {Fenmo}{Jun. 2026 -- Present}
+            {Software Development Engineer}{Bangalore, India}
+                \resumeItemListStart
+                    \resumeItem{Reduced backend CI cost by 55\% by making the test suite hermetic and isolated}
+                    \resumeItem{Built the backend's first Credential Vault (AES-256 encryption, versioned KEK rotation)}
+                    \resumeItem{Rebuilt the reconciliation matcher, improving exact-match accuracy (67\% to 82\%) and reducing false matches (22\% to 12\%)}
+                    \resumeItem{Isolated Temporal workloads into dedicated per-task-queue worker pools and moved blocking I/O off the async event loop}
+                \resumeItemListEnd
+
+        \resumeSubheading
             {smallcase}{Jul. 2025 -- Dec. 2025}
-            {Backend Engineering Intern}{remote}
+            {Backend Engineering Intern}{Remote}
                 \resumeItemListStart
-                    \resumeItem{Engineered automation system for content publishing with internal CMS platform}
+                    \resumeItem{Built a Google Sheets to CMS automation that removed manual steps from the editorial publishing workflow}
                     \resumeItem{Optimized alert system across multiple services and core logic to reduce technical debt}
-                    \resumeItem{Led database driver migration initiative to ensure backward compatibility and enable zero-downtime service upgrade}
-                \resumeItemListEnd
-
-        \resumeSubheading
-            {Adizen}{May 2025 -- Jun. 2025}
-            {Full Stack Developer Intern }{remote}
-                \resumeItemListStart
-                    \resumeItem{Designed and implemented a template-based user onboarding framework, streamlining client setup and accelerating deployment timelines}
-                    \resumeItem{Built scalable CRM and campaign modules, supporting expansion from pilot to full-scale platform adoption}
-                    \resumeItem{Launched a unified notification system, improving message delivery reliability and campaign setup efficiency}
-                \resumeItemListEnd
-
-        \resumeSubheading
-            {Munii}{May 2024 -- July 2024}
-            {Clojure Developer Intern}{remote}
-                \resumeItemListStart
-                    \resumeItem{Spearheaded development of Tag Manager, enabling flexible tag modification and enhanced custom user experiences}
-                    \resumeItem{Optimized backend data interactions and query performance to improve responsiveness}
-                    \resumeItem{Enhanced platform usability and navigation with intuitive UI design, driving higher user engagement}
-                    \resumeItem{Collaborated cross-functionally to deliver solutions aligned with user and design requirements}
+                    \resumeItem{Led a Mongoose/MongoDB driver migration with full backward compatibility, enabling a zero-downtime upgrade of a production service}
                 \resumeItemListEnd
 
         \resumeSubheading
             {IIIT Jabalpur}{Dec. 2023 -- Mar. 2024}
-            {Cybersecurity Research Intern}{onsite}
+            {Cybersecurity Research Intern}{Jabalpur, India}
                 \resumeItemListStart
                     \resumeItem{Automated malware identification and analysis using the Qiling framework, streamlining detection of complex signatures, patterns, and behaviors}
                     \resumeItem{Conducted comprehensive testing and validation to ensure robust detection accuracy}
@@ -144,12 +133,12 @@
     \resumeSubHeadingListEnd
     \vspace{-16pt}
 
-    \section{Achievements}
+    \section{Publications}
         \resumeSubHeadingListStart
             \resumeAchievementheading
-            {\href{https://devfolio.co/projects/vulture-9607/}{MLH HackByte 2.0}}{\emph{First Runner Up}}
+            {\href{https://doi.org/10.1145/3756681.3756992}{LLM-assisted Web Application Functional Requirements Generation}}{EASE '25 (ACM)}
                 \resumeItemListStart
-                    \resumeItem{Achieved 2\textsuperscript{nd} position among 100 teams, selected from 2200 registrations}
+                    \resumeItem{Co-author (2 of 5) of a case study of four LLMs generating functional requirements}
                 \resumeItemListEnd
         \resumeSubHeadingListEnd
         \vspace{-15pt}
@@ -158,22 +147,29 @@
         \resumeSubHeadingListStart
         \vspace{-6pt}
             \resumeProjectHeading
-            {\textbf{Fusion} $|$ \emph{Django, PostgreSQL, React}}{{\href{https://github.com/adityakgupta/Fusion-client/tree/sa-2}{\textit{Frontend}}} $|$ {\href{https://github.com/adityakgupta/Fusion/tree/sa-2}{\textit{Backend}}}}
-                \resumeItemListStart
-                    \resumeItem{Led a team of 10 students to design and implement the Mess Management module, improving operational efficiency and user satisfaction across 1000+ students and caretakers}
-                    \resumeItem{Conducted code reviews and ensured high-quality standards, through automated tests and reducing bugs in production}
-                    \resumeItem{Collaborated with teams to ensure seamless integration between frontend and backend systems, ensuring stability and scalability}
-                \resumeItemListEnd
+                {\textbf{Sync} $|$ \emph{Go}}{\href{https://github.com/adityakgupta/sync}{\textit{GitHub}}}
+                    \resumeItemListStart
+                        \resumeItem{Built a decentralized peer-to-peer file synchronizer in pure Go (stdlib only) that keeps folders eventually consistent across LAN devices with no central server}
+                        \resumeItem{Implemented majority-vote conflict resolution over SHA-256 content hashes with UDP peer discovery over a TLS full-mesh protocol}
+                        \resumeItem{Parallelized scanning/hashing across CPU cores; built an interactive CLI for monitoring, voting, and conflict resolution}
+                    \resumeItemListEnd
+        \vspace{-16pt}
+            \resumeProjectHeading
+                {\textbf{Fusion} $|$ \emph{Django, PostgreSQL, React}}{{\href{https://github.com/adityakgupta/Fusion-client/tree/sa-2}{\textit{Frontend}}} $|$ {\href{https://github.com/adityakgupta/Fusion/tree/sa-2}{\textit{Backend}}}}
+                    \resumeItemListStart
+                        \resumeItem{Led a team of 10 students to design and implement the Mess Management module, improving operational efficiency and user satisfaction across 1000+ students and caretakers}
+                        \resumeItem{Conducted code reviews and ensured high-quality standards through automated tests and reducing bugs in production}
+                        \resumeItem{Collaborated with teams to ensure seamless integration between frontend and backend systems, ensuring stability and scalability}
+                    \resumeItemListEnd
         \resumeSubHeadingListEnd
         \vspace{-15pt}
 
     \section{Leadership / Extracurricular}
         \resumeSubHeadingListStart
-            \resumeSubheading
-                {GDSC Lead}{Sept. 2024 -- Sept. 2025}
-                {Google Developer Student Clubs}{IIIT Jabalpur}
-                    \resumeItemListStart
-                        \resumeItem{Lead a community of 1200+ members, managing a team of 12 to organise events, workshops, and hackathons}
-                    \resumeItemListEnd
+            \resumeSubheading{GDSC Lead}{Sep. 2024 -- Sep. 2025}{Google Developer Student Clubs}{IIIT Jabalpur}
+                \resumeItemListStart
+                    \resumeItem{Led a community of 1200+ members, managing a team of 12 to organize events, workshops, and hackathons}
+                    \resumeItem{Increased member engagement by 40\% through interactive sessions and a mentorship programme for 150+ students}
+                \resumeItemListEnd
         \resumeSubHeadingListEnd
 \end{document}
